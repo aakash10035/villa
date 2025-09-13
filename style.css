@@ -7,23 +7,25 @@
         }
         .social-icons a {
             color: white;
-            background-color: gray;
-            border-radius: 100px;
+            background-color: lightgray;
+            border-radius: 50%;
             font-size: 20px;
             width: 25px;
             margin-left: 10px;
             margin-right: 10px;
-            transition: color 0.2s;
+            
         }
         .social-icons a:hover {
             color: orangered;
+           
+            
         }
         .navbar {
             background: white;
             border-bottom: 1px solid white;
         }
         .navbar-nav .nav-link.active {
-            color: orange !important;
+            color: orange ;
         }
         .schedule-btn {
             background: red;
