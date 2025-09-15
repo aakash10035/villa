@@ -39,7 +39,7 @@
     color: black;
     font-size: x-large;
     cursor: pointer;
-    gap: 20px;
+    gap: 40px;
 }
 
 .social-icons :hover {
@@ -108,7 +108,6 @@ nav .container {
     color: orangered;
     font-weight: bold;
     padding: 2px 0px;
-    /* border: none; */
     border-radius: 25px;
     cursor: pointer;
     font-size: 16px;
@@ -127,6 +126,7 @@ nav .container {
     width: 25px;
     height: 25px;
     font-size: 15px;
+    justify-content: center;
 }
 
 .hero-section {
@@ -336,5 +336,302 @@ p{
 
 .play-btn :hover {
     background-color: red;
-    
+
+}
+
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 250px;
+    align-items: center;
+
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #f4e3d8;
+    border-radius: 20px;
+    padding: 12px 16px;
+
+}
+
+.stat h3 {
+    color: orangered;
+}
+
+/* 
+.stat-dot{
+    background-color: orangered;
+    color: orangered;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  
+} */
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.label {
+    color: #F16942;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 22px;
+}
+
+.deal {
+    color: #222;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.property-details {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+    padding: 10px 32px;
+    max-width: 320px;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 15px;
+    color: #b2b2b2;
+}
+
+.detail-value {
+    color: #222;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.right-section {
+    flex: 1.7;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 40px;
+}
+
+.button-group {
+    margin-top: 150px;
+    margin-left: 350px;
+    margin-bottom: 32px;
+    display: flex;
+    gap: 30px;
+}
+
+.btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 10px;
+    padding: 13px 40px;
+    border-radius: 1px;
+    cursor: pointer;
+
+}
+
+.btn-orange {
+    background: #2a0b78;
+    color: #fff;
+}
+
+.btn-dark {
+    background: rgb(42, 41, 41);
+    color: #fff;
+}
+
+.property {
+    display: flex;
+    /* flex-direction: row; */
+    gap: 38px;
+}
+
+.property-image {
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 410px;
+    height: 380px;
+    border-radius: 1px;
+    background: #eaeaea;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+}
+
+.info-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.info-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 18px;
+    margin-top: 10px;
+
+}
+
+.info-desc {
+    font-size: 15px;
+    color: #666;
+    /* margin-bottom: 16px; */
+}
+
+.btn-schedule {
+    background: #242424;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 34px;
+    font-size: 1.07rem;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-top: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-schedule:hover {
+    background: #F16942;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    color: orangered;
+
+    justify-content: center;
+}
+
+.matter h6 {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.matter h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.villa-list {
+    display: flex;
+    gap: 0px;
+    padding: 2px 0;
+}
+
+.villa-card {
+    margin-left: 100px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+    padding: 28px 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.villa-card:hover {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+
+.villa-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 11px;
+    margin-bottom: 24px;
+    background: #eaeaea;
+}
+
+.villa-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.villa-type {
+    background: #f3d8cf;
+    color: #a36b4f;
+    font-weight: 600;
+    font-size: 1.07rem;
+    padding: 7px 20px;
+    border-radius: 8px;
+}
+
+.villa-price {
+    color: #F16942;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.villa-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #222;
+    margin: 15px 0 18px 0;
+}
+
+.villa-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 30px;
+    margin-bottom: 24px;
+    color: #b2b2b2;
+    font-size: 1.08rem;
+}
+
+.villa-info span {
+    margin-bottom: 5px;
+}
+
+.villa-info b {
+    color: #222;
+    font-weight: 700;
+}
+
+.villa-divider {
+    width: 100%;
+    margin: 18px 0 22px 0;
+}
+.villa-btn{
+    display: flex;
+    font-size: 15px;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    margin-left: 60px;
+    padding: 10px 30px;
 }
